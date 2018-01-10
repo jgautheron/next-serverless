@@ -1,0 +1,26 @@
+{
+  "name": "next-serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lambda.js",
+  "files": [
+    ".next/",
+    "pages/",
+    "lambda.js",
+    "server.js"
+  ],
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-serverless-express": "^3.0.2",
+    "express": "^4.16.2",
+    "next": "^4.3.0-canary.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
